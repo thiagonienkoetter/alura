@@ -2,4 +2,14 @@
     --branco-princpal:FFFFFF;
     --cinza-secundario:#C0C0C0;
     --bota0-azul:#167bf7;
-    --
+    --cor-de-fundo:300030c;
+    --fonte-principal:'inter';
+}
+body{
+    background-color: var(--cor_de_fundo);
+    color: var(--var_branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    
+}
