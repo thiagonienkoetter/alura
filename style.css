@@ -7,9 +7,40 @@
 }
 body{
     background-color: var(--cor_de_fundo);
-    color: var(--var_branco-principal);
+    color: var(branco-principal);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
     
 }
+*{
+    margin: 0;
+    paing: 0;
+}
+.princiapal{
+    backgraun-image:url("img/Backgraund.png");
+    backgraund-repeat: no-repeat;
+    backgroun-size: contain;
+}
+    .container{
+        height: 100vh:
+diplay: grid;
+grid-template-columns: 50% 50%;
+}
+.container_botao{
+    bakground-color: var(--botao-azul);
+    borer-radius: 5px;
+    paing: 1em;
+    color: var(--branco-principal);
+    iplay: block;
+    text-ecoration: none;
+}
+.botao_secunario{
+    background-color: transparent
+    border: 2px solid var(--cina-secundario);
+}
+.container_aviso{
+    font size: 12px;
+    color: var: 28px;
+    font-weight:700;
+    }
